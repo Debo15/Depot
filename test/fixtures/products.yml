@@ -1,13 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+  name: "iyaad's book for mastering software architecture"
+  description: "the main purpose of this book is to understand the relation between the system's components"
+  image_url: "mappis.png"
+  price: 23.42
 
 two:
-  name: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+  name: "greeting book"
+  description: "how to say hello, world"
+  image_url: "mappis.png"
+  price: 1.0
