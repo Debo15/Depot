@@ -8,6 +8,7 @@
 #---
 # encoding: utf-8
 Product.delete_all
+# Cart.delete_all
 Product.create!(name: 'Docker for Rails Developers',
                 description:
                   %{<p>
@@ -23,6 +24,7 @@ Product.create!(name: 'Docker for Rails Developers',
       </p>},
                 image_url: 'https://pragprog.com/titles/ridocker/docker-for-rails-developers/ridocker.jpg',
                 price: 19.95)
+Product.create!(name: 'Ahmad Sulieman', description: "A <b>product</b> that we all know what you can do with it", image_url: "https://dbwf8q1mv0cee.cloudfront.net/chi/api/user/dtp/klk_yzrt2uhdbb4ug47iriuf9yhjgqid0.jpg", price: 0.01)
 # . . .
 # Product.create!(name: 'Design and Build Great Web APIs',
 #                 description:

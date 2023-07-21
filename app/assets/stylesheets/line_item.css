@@ -1,0 +1,11 @@
+@keyframes line-item-highlight {
+    0%{
+        background: #00a3e2;
+    }
+    100%{
+        background: none;
+    }
+}
+.line-item-highlight{
+    transition: line-item-highlight 1s;
+}
